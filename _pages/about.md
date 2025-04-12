@@ -28,3 +28,5 @@ latest_posts:
 ---
 
 I am Aditya. I am interested in Mathematics, Machine Learning and the Brain.
+
+My email: `adi22dutta@gmail.com` i.e. `adi22dutta at gmail dot com` in words.
