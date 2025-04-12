@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Aditya Dutta",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "adi22dutta@gmail.com",
+    "phone": "(+91) 9382522757",
+    "url": "https://mrishu.github.io",
+    "summary": "Interested in Mathematics, Machine Learning and the Brain.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -47,14 +47,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "institution": "Indian Institute of Science Education and Research (IISER), Kolkata",
+      "location": "West Bengal, India",
+      "url": "",
+      "area": "Mathematics",
+      "studyType": "BS-MS with major in Mathematics",
+      "startDate": "2018-08-01",
+      "endDate": "2023-07-30",
+      "score": "8.07",
       "courses": ["Theory of Relativity"]
     }
   ],

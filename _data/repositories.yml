@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mrishu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mrishu/libg-fzf
+  - mrishu/chess
+  - mrishu/tash
