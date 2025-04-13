@@ -9,9 +9,9 @@ categories: others
 
 > Ensure [`micromamba`](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) is installed. It is awesome for environment management.
 
-# 1 Environment Setup
+## 1 Environment Setup
 
-## 1.1 Setting up Java
+### 1.1 Setting up Java
 
 1. Install Temurin JDK 21 from the AUR or [download](https://adoptium.net/temurin/releases/) it from it’s main site.
 
@@ -42,7 +42,7 @@ categories: others
    > `JAVA_HOME/bin` must be added to the beginning of `PATH` to overwrite the access to default `java` binaries.
    > Check which `java` is being used by executing `which java` or `java -version`.
 
-## 1.2 Create environment
+### 1.2 Create environment
 
 1. ```shell
    micromamba create -n ir
@@ -57,7 +57,7 @@ categories: others
    pip install build
    ```
 
-# 2 Install PyLucene
+## 2 Install PyLucene
 
 ### 2.1 Download and extract PyLucene
 
