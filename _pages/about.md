@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+#subtitle: 木漏れ日 (Komorebi) [kō-mō-leh-bē] - <i>Sunlight leaking through the leaves of trees</i>
+subtitle: <b>आदित्य</b> दत्ता / <b>আদিত্য</b> দত্ত
 
 profile:
   align: right
@@ -29,4 +30,4 @@ latest_posts:
 
 I am Aditya. I am interested in Mathematics, Machine Learning and the Brain.
 
-My email: `adi22dutta@gmail.com` i.e. `adi22dutta at gmail dot com` in words.
+Email: [adi22dutta@gmail.com](mailto:adi22dutta@gmail.com) (`adi22dutta at gmail dot com`).
