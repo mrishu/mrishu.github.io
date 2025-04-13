@@ -7,13 +7,13 @@ tags: pyluence python code ir arch-linux
 categories: others
 ---
 
-> Ensure `micromamba` is installed. It is awesome for environment management.
+> Ensure [`micromamba`](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) is installed. It is awesome for environment management.
 
 # 1 Environment Setup
 
 ## 1.1 Setting up Java
 
-1. Install Temurin JDK 21 from the AUR or download it from it’s main site:
+1. Install Temurin JDK 21 from the AUR or [download](https://adoptium.net/temurin/releases/) it from it’s main site.
 
    ```shell
    yay -S jdk21-temurin
@@ -37,7 +37,7 @@ categories: others
    $env.PATH = [($env.JAVA_HOME | path join "bin")] ++ $env.PATH
    ```
 
-   > If Temurin JDK 21 wasn't downloaded from the AUR, then it can also be downloaded from it’s main site, and `JAVA_HOME` can then be set to it’s path.
+   > If Temurin JDK 21 wasn't downloaded from the AUR, and extracted manually, then `JAVA_HOME` should set to it’s path appropriately.
 
    > `JAVA_HOME/bin` must be added to the beginning of `PATH` to overwrite the access to default `java` binaries.
    > Check which `java` is being used by executing `which java` or `java -version`.
@@ -70,7 +70,7 @@ categories: others
 > 2. `JAVA_HOME` is set properly to point to correct Temurin JDK 21 path.
 > 3. `PATH` contains `JAVA_HOME/bin` at its beginning.
 
-### 2.2 Install jcc into `ir` environment
+### 2.2 Install JCC in the `ir` environment
 
 1. `cd jcc`
 2. Modify `setup.py` so that the `JDK` dictionary with key as `linux` has same value as `JAVA_HOME` i.e. the path to Temurin 21 JDK.
