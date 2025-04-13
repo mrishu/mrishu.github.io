@@ -86,7 +86,7 @@ categories: others
 3. `python setup.py build`
 4. `python setup.py install`
 
-### 2.3 Install pylucene inside the `ir` environment
+### 2.3 Install PyLucene in the `ir` environment
 
 1. `cd ..` → Go into the PyLucene root directory.
 2. Edit the `MakeFile` to un-comment the block mentioning Linux and Python3.
