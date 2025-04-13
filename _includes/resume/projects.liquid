@@ -7,11 +7,11 @@
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% if content.endDate == null or content.endDate == '' %}
-            {% assign date = startDate | append: ' - Present' %}
+              {% assign date = startDate | append: ' - Present' %}
             {% elsif content.startDate == content.endDate %}
-            {% assign date = startDate %}
+              {% assign date = startDate %}
             {% else %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+              {% assign date = startDate | append: ' - ' | append: endDate %}
             {% endif %}
             {% comment %} {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %} {% endcomment %}
             {% comment %} {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %} {% endcomment %}

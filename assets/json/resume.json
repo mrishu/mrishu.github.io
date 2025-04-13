@@ -5,7 +5,8 @@
     "image": "",
     "email": "adi22dutta@gmail.com",
     "phone": "+91-9382522757",
-    "url": "https://mrishu.github.io", "summary": "A passionate programmer and student with a knack for problem-solving and a strong foundation in mathematics and computer science.",
+    "url": "https://mrishu.github.io",
+    "summary": "A passionate programmer and student with a knack for problem-solving and a strong foundation in mathematics and computer science.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,10 +30,7 @@
       "startDate": "2022-08-01",
       "endDate": "2023-03-01",
       "summary": "Conducted in-depth research on Complex Dynamical Systems and Complex Analysis under Dr. Sushil Gorai. Developed detailed animations and visualizations using Matplotlib.",
-      "highlights": [
-        "Conducted research on Complex Dynamics",
-        "Developed visualizations and animations using Matplotlib"
-      ]
+      "highlights": ["Conducted research on Complex Dynamics", "Developed visualizations and animations using Matplotlib"]
     }
   ],
   "volunteer": [],
@@ -187,4 +185,3 @@
     }
   ]
 }
-
