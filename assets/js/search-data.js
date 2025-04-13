@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://adityadutta.bearblog.dev";
               },
-            },{id: "books-the-godfather",
+            },{id: "post-installing-pylucene-10-0-0-in-a-micromamba-environment",
+        
+          title: "Installing PyLucene 10.0.0 in a micromamba environment",
+        
+        description: "Installing PyLucene is always a headache. Noting it down.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/installing-pylucene10/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
