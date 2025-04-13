@@ -37,6 +37,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
+            },{id: "dropdown-bear-blog",
+              title: "bear blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://adityadutta.bearblog.dev";
+              },
             },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
