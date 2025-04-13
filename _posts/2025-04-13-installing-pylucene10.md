@@ -23,7 +23,9 @@ categories: others
    > I installed **Temurin JDK 21**.  
    > (Its also available on the AUR as on 13th Apr, 2025).
 
-2. ```shell
+2. Configure `JAVA_HOME` and `PATH` environment variables.
+
+   ```shell
    export JAVA_HOME=/usr/lib/jvm/java-21-temurin
    export PATH=$JAVA_HOME/bin:$PATH
    ```
