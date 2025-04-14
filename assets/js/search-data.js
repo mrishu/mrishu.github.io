@@ -44,9 +44,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://adityadutta.bearblog.dev";
               },
-            },{id: "post-installing-pylucene-10-0-0-in-a-micromamba-environment",
+            },{id: "post-installing-pylucene-10-0-0-in-a-conda-environment-on-linux",
         
-          title: "Installing PyLucene 10.0.0 in a micromamba environment",
+          title: "Installing PyLucene 10.0.0 in a conda environment (on Linux)",
         
         description: "Installing PyLucene is always a headache. Noting it down.",
         section: "Posts",
