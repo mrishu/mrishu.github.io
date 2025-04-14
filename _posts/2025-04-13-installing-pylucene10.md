@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Installing PyLucene 10.0.0 in a micromamba environment
+title: Installing PyLucene 10.0.0 in a conda environment (on Linux)
 date: 2025-03-14 14:24:00
 description: Installing PyLucene is always a headache. Noting it down.
 tags: pyluence python code ir arch-linux
 categories: others
 ---
 
-> Ensure [`micromamba`](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) is installed. It is awesome for environment management.
+> I use [`micromamba`](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). It is awesome for environment management. But all the commands here can be replaced with conda/mamba too.
 
 ## 1 Environment Setup
 
 ### 1.1 Setting up Java
 
-1. Install Temurin JDK 21 from the AUR or [download](https://adoptium.net/temurin/releases/) it from it’s main site.
+1. Install Temurin JDK 21 from the AUR (for Arch Linux users) or [download the JDK from it’s website](https://adoptium.net/temurin/releases/).
 
    ```shell
-   yay -S jdk21-temurin
+   yay -S jdk21-temurin  # for arch users
    ```
 
    > PyLucene 10.0.0 requires at least Java 21. But it wasn't compiling with Temurin JDK 24.  
@@ -26,18 +26,18 @@ categories: others
 2. Configure `JAVA_HOME` and `PATH` environment variables.
 
    ```shell
-   export JAVA_HOME=/usr/lib/jvm/java-21-temurin
+   export JAVA_HOME=/usr/lib/jvm/java-21-temurin  # adjust appropriately
    export PATH=$JAVA_HOME/bin:$PATH
    ```
 
    or in NuShell,
 
    ```nu
-   $env.JAVA_HOME = '/usr/lib/jvm/java-21-temurin'
+   $env.JAVA_HOME = '/usr/lib/jvm/java-21-temurin'  # adjust appropriately
    $env.PATH = [($env.JAVA_HOME | path join "bin")] ++ $env.PATH
    ```
 
-   > If Temurin JDK 21 wasn't downloaded from the AUR, and extracted manually, then `JAVA_HOME` should set to it’s path appropriately.
+   > If Temurin JDK 21 wasn't downloaded from the AUR, then `JAVA_HOME` should be set to it’s path appropriately.
 
    > `JAVA_HOME/bin` must be added to the beginning of `PATH` to overwrite the access to default `java` binaries.
    > Check which `java` is being used by executing `which java` or `java -version`.
@@ -59,7 +59,7 @@ categories: others
 
 ## 2 Install PyLucene
 
-### 2.1 Download and extract PyLucene
+### 2.1 [Download](https://dlcdn.apache.org/lucene/pylucene/) and extract PyLucene
 
 1. `tar -xvzf pylucene-10.0.0-src.tar.gz`
 2. `cd pylucene-10.0.0-src`
@@ -90,7 +90,7 @@ categories: others
 
 1. `cd ..` → Go into the PyLucene root directory.
 2. Edit the `MakeFile` to un-comment the block mentioning Linux and Python3.
-3. Modify `PREFIX_PYTHON` and `PYTHON` variables to point to the Python in `ir` environment.  
+3. Modify `PREFIX_PYTHON` and `PYTHON` variables to point to the Python location in `ir` environment.  
    For example,
 
    ```MakeFile
