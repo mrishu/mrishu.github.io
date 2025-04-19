@@ -23,6 +23,8 @@ categories: others
    > I installed **Temurin JDK 21**.  
    > (Its also available on the AUR as on 13th Apr, 2025).
 
+   > **Important**: If you are downloading the JDK from the website, make sure that the extracted directory of the JDK contains the substring `temurin`. If the downloaded `tar.gz` file extracts to the directory `jdk-21.0.7+6`, you may rename it to `temurin-jdk-21.0.7+6` or anything else that contains `temurin`.
+
 2. Configure `JAVA_HOME` and `PATH` environment variables.
 
    ```shell
