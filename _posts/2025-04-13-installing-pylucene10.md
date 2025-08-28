@@ -72,7 +72,7 @@ categories: others
 1. `cd jcc`
 2. Modify `setup.py` so that the `JDK` dictionary with key as `linux` has same value as `JAVA_HOME` i.e. the path to Temurin 21 JDK directory.
 
-   For example, for my case, it would be,
+   For example, in my case, it would be,
 
    ```python
    JDK = {
@@ -91,7 +91,7 @@ categories: others
 2. Edit the `MakeFile` to uncomment the block mentioning Linux and Python3.
 3. In the uncommented block, modify the `PREFIX_PYTHON` and `PYTHON` variables to point to the Python location in `ir` environment.
 
-   For example for my case, it would be,
+   For example, in my case, it would be,
 
    ```MakeFile
    PREFIX_PYTHON=/home/adi/micromamba/envs/ir
