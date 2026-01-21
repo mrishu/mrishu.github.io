@@ -31,6 +31,15 @@
       "endDate": "2023-03-01",
       "summary": "Conducted in-depth research on Complex Dynamical Systems and Complex Analysis under Dr. Sushil Gorai. Developed detailed animations and visualizations using Matplotlib.",
       "highlights": ["Conducted research on Complex Dynamics", "Developed visualizations and animations using Matplotlib"]
+    },
+    {
+      "name": "Indian Statistical Institute, Kolkata (ISI Kolkata)",
+      "position": "M.Tech Disseration",
+      "url": "",
+      "startDate": "2024-08-01",
+      "endDate": "2025-03-01",
+      "summary": "Conducted in-depth research on Complex Dynamical Systems and Complex Analysis under Dr. Sushil Gorai. Developed detailed animations and visualizations using Matplotlib.",
+      "highlights": ["Conducted research on Complex Dynamics", "Developed visualizations and animations using Matplotlib"]
     }
   ],
   "volunteer": [],
@@ -43,7 +52,7 @@
       "startDate": "2023-08-01",
       "endDate": "2025-06-01",
       "score": "81.44%",
-      "courses": ["Discrete Mathematics", "Information Retrieval", "Machine Learning I and II"]
+      "courses": ["Natural Language Processing", "Information Retrieval", "Reinforcement Learning", "Machine Learning I and II"]
     },
     {
       "institution": "Indian Institute of Science Education and Research Kolkata (IISER Kolkata)",
@@ -53,7 +62,7 @@
       "startDate": "2018-08-01",
       "endDate": "2023-06-01",
       "score": "8.07",
-      "courses": ["Real Analysis", "Complex Analysis"]
+      "courses": ["Real Analysis I, II, III and IV", "Linear Algebra I and II", "Probability I and II", "Functional Analysis"]
     }
   ],
   "awards": [],
@@ -68,7 +77,7 @@
     {
       "name": "Libraries",
       "level": "",
-      "keywords": ["PyTorch", "Scikit-learn", "NumPy", "SciPy", "Pandas", "Matplotlib", "Gymnasium", "StableBaselines3"]
+      "keywords": ["PyTorch", "Scikit-learn", "NumPy", "SciPy", "Pandas", "Matplotlib", "PyLucene", "PyTerrier", "Gymnasium", "StableBaselines3"]
     },
     {
       "name": "Tools & Systems",
