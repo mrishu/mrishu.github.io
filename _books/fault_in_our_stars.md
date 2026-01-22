@@ -17,11 +17,11 @@ status: Finished
 ---
 
 **WARNING: MAJOR SPOILERS AHEAD**  
-*The following is my personal reflection, not a book review.*
+_The following is my personal reflection, not a book review._
 
-The characters in *The Fault In Our Stars* are young, but the questions they face are not. Augustus and Hazel respond to illness (cancer), love, and death in ways that feel deeply human, sometimes mature, sometimes childish, often contradictory.
+The characters in _The Fault In Our Stars_ are young, but the questions they face are not. Augustus and Hazel respond to illness (cancer), love, and death in ways that feel deeply human, sometimes mature, sometimes childish, often contradictory.
 
-Augustus and Hazel approach life very differently. Augustus wants to matter, to be remembered, to leave something behind. Hazel is afraid of hurting the people she loves, of being a “grenade” whose death will cause pain. The book never tells us which way of thinking is *correct*. It allows both to exist, without judgment.
+Augustus and Hazel approach life very differently. Augustus wants to matter, to be remembered, to leave something behind. Hazel is afraid of hurting the people she loves, of being a “grenade” whose death will cause pain. The book never tells us which way of thinking is _correct_. It allows both to exist, without judgment.
 
 When Gus (Augustus) becomes sick, the story becomes especially painful to read. Watching him decline hurts because of who he was before: confident, charming, full of energy. One of the most heartbreaking scenes is when he calls Hazel late at night after getting stranded at a gas station. He had gone out to buy cigarettes (not because he smoked, but because he used them as a metaphor). Gus is scared, humiliated, and alone, and Hazel is the only person he can call.
 
@@ -31,7 +31,7 @@ Their love is not perfect or evenly balanced. Augustus loves in grand gestures, 
 
 The novel does not answer whether love that causes pain is worth it. Is it kinder to protect others from pain, or to risk hurting them by loving deeply? It does not try to comfort us with certainty.
 
-After Augustus’s death, one of the most moving moments is Hazel’s desire to talk about Augustus’s death *to* Augustus himself, in the *third space* they had created together. She wants to explain his passing to him, to share it with the one person who *should* understand. This moment captures grief with painful honesty, the instinct to reach out and speak even when the person is gone. It made me cry, and it stayed with me long after I closed the book.
+After Augustus’s death, one of the most moving moments is Hazel’s desire to talk about Augustus’s death _to_ Augustus himself, in the _third space_ they had created together. She wants to explain his passing to him, to share it with the _one_ person who should understand. This moment captures grief with painful honesty, the instinct to reach out to one's loved ones even when they are gone. It made me cry, and it stayed with me long after I closed the book.
 
 This is not a story where one person saves the other. Hazel and Augustus give each other companionship, warmth, and solace, not answers. Augustus is not a perfect figure written only to make Hazel’s life meaningful. He is troubled, afraid that his life and death might not matter. By the end, he seems to realize that meaning can also exist in being present, in observing, and in being deeply loved by one person.
 
