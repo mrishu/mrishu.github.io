@@ -7,8 +7,6 @@ tags: pyluence python code ir arch-linux
 categories: others
 ---
 
-> I use [`micromamba`](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). It is awesome for environment management. But all the commands here can be replaced with conda/mamba too.
-
 ## 1 Environment Setup
 
 ### 1.1 Setting up Java
@@ -28,21 +26,14 @@ categories: others
    export PATH=$JAVA_HOME/bin:$PATH
    ```
 
-   or in NuShell,
-
-   ```nu
-   $env.JAVA_HOME = '/usr/lib/jvm/java-21-temurin'  # adjust appropriately
-   $env.PATH = [($env.JAVA_HOME | path join "bin")] ++ $env.PATH
-   ```
-
    > Adjust `JAVA_HOME` environment variable appropriately to point to the Temurin JDK directory.  
    > Note that `JAVA_HOME/bin` should be added to the beginning of the `PATH` environment variable.
 
 ### 1.2 Create environment and activate it
 
 1. ```shell
-   micromamba create -n ir python=3.11
-   micromamba activate ir
+   conda create -n lucene python=3.11
+   conda activate lucene
    ```
 
    > JCC installation requires `distutils` which was a part of standard library in Python, but has been deprecated since 3.10 and is removed in 3.12.  
@@ -63,7 +54,7 @@ categories: others
 
 > **From this point onwards make sure:**
 >
-> 1. You are inside the `ir` environment (which has Python=3.11 and `build` installed).
+> 1. You are inside the `lucene` environment (which has Python=3.11 and `build` installed).
 > 2. `JAVA_HOME` is set properly to point to correct Temurin JDK 21 path.
 > 3. `PATH` contains `JAVA_HOME/bin` at its beginning.
 
@@ -94,11 +85,11 @@ categories: others
    For example, in my case, it would be,
 
    ```MakeFile
-   PREFIX_PYTHON=/home/adi/micromamba/envs/ir
+   PREFIX_PYTHON=/home/adi/miniconda3/envs/lucene
    PYTHON=$(PREFIX_PYTHON)/bin/python
    ```
 
-   > You can get this location via the command `which python` when the `ir` environment is activated.
+   > You can get this location via the command `which python` when the `lucene` environment is activated.
 
 4. `make`
 5. `make test` to see if there were any failures.
