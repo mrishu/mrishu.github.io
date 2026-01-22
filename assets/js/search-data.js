@@ -55,11 +55,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/installing-pylucene10/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-fault-in-our-stars",
+          title: 'The Fault in Our Stars',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/fault_in_our_stars/";
             },},{id: "news-finally-made-my-own-website-portfolio-on-github-pages-using-the-theme-al-folio-hope-it-goes-well",
           title: 'Finally made my own website/portfolio on Github Pages using the theme al-folio. Hope...',
           description: "",
@@ -85,11 +85,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/aditya-dutta-347a7024b", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://scholar.google.com/citations?user=fZmK0MIAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
